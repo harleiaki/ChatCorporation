@@ -14,5 +14,5 @@ io.addListener("connection", (socket) => {
   });
 });
 
-servidorHTTP.listen(1234);
+servidorHTTP.listen(1234); //localhost:1234
 //servidorHTTP.listen(1234, '192.168....'); //cmd... ipconfig.. ipv4... para conectar na sua rede wifi, pelo ip
